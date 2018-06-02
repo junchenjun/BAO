@@ -1,0 +1,8 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <item name="android:windowBackground">@drawable/launch_screen_bitmap</item>
+        <item name="android:windowLightStatusBar">true</item>
+  		<item name="android:statusBarColor">#000</item>
+    </style>
+</resources>
