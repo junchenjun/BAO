@@ -2,14 +2,17 @@
 
 A pure RSS reader app built with React Native,
 
+
 ## Download
 
 <img src="http://oxjdt5zn7.bkt.clouddn.com/%E8%81%94%E5%9B%BE%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="200">
 [Only Android version is avaliable to download]
 
+
 ## Preview
 
-<img src="https://github.com/jaychenjun/BAO/blob/master/preview.jpg" width="800">
+<img src="https://github.com/jaychenjun/BAO/blob/master/preview.jpg" width="900">
+
 
 ## Dependencies
 
@@ -26,6 +29,7 @@ A pure RSS reader app built with React Native,
 * [react-native-modal](https://github.com/react-native-community/react-native-modal): 6.0.0
 * [react-native-elevated-view](https://github.com/alekhurst/react-native-elevated-view): 0.0.6
 * [leancloud-storage](https://github.com/leancloud/javascript-sdk): 3.6.3
+
 
 ## Running
 
