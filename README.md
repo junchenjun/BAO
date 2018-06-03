@@ -1,4 +1,4 @@
-<img src="http://oxjdt5zn7.bkt.clouddn.com/baner.jpg" width="900">
+<img src="https://github.com/jaychenjun/BAO/blob/master/banner.jpg" width="900">
 
 # BAO
 A pure RSS reader app built with React Native,
