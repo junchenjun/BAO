@@ -7,6 +7,10 @@ A pure RSS reader app built with React Native,
 <img src="http://oxjdt5zn7.bkt.clouddn.com/%E8%81%94%E5%9B%BE%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="200">
 [Only Android version is avaliable to download]
 
+## Preview
+
+<img src="http://oxjdt5zn7.bkt.clouddn.com/preview.jpg" width="800">
+
 ## Dependencies
 
 * [react](https://github.com/facebook/react): 16.3.1
