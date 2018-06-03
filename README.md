@@ -55,6 +55,7 @@ A pure RSS reader app built with React Native
 
 * Run `react-native run-android`
 
+<br/>
 [ Some modifies have been made to few packages, <br/>
 &emsp;so it might not looks exactly the same if you are running on your computer ]
 
