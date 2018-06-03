@@ -56,6 +56,7 @@ A pure RSS reader app built with React Native
 * Run `react-native run-android`
 
 <br/>
+<br/>
 [ Some modifies have been made to few packages, <br/>
 so it might not looks exactly the same if you are running on your computer ]
 <br/>
@@ -64,6 +65,7 @@ so it might not looks exactly the same if you are running on your computer ]
 but I am running the backend service on a free BaaS plan,<br/>
 supported by LeanCloud with limited API reuqest per day,<br/>
 so I might will delete your account after a while ]
+<br/>
 <br/>
 <br/>
 
