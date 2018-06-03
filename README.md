@@ -43,7 +43,7 @@ A pure RSS reader app built with React Native
 
 #### Clone & install
 
-* Clone this repo `git clone git@github.com:jaychenjun/BAO.git`
+* Clone this repo `git clone https://github.com/jaychenjun/BAO.git`
 * run`cd BAO`
 * run `npm install`
 
