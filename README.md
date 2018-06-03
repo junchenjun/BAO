@@ -1,8 +1,9 @@
-<p align="center">
-<img src="https://github.com/jaychenjun/BAO/blob/master/banner.jpg" width="850">
-</p>
-A pure RSS reader app built with React Native,
 
+<img src="https://github.com/jaychenjun/BAO/blob/master/banner.jpg" width="100%">
+
+<p align="center">
+A pure RSS reader app built with React Native
+</p>
 
 ## Download
 
