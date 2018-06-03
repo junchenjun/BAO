@@ -9,7 +9,7 @@ A pure RSS reader app built with React Native,
 
 ## Preview
 
-<img src="http://oxjdt5zn7.bkt.clouddn.com/preview.jpg" width="800">
+<img src="https://github.com/jaychenjun/BAO/blob/master/preview.jpg" width="800">
 
 ## Dependencies
 
