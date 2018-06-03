@@ -31,8 +31,6 @@ export const setCurrentFeed = ( currentFeed ) => {
 	})
 }
 
-// http://www.36kr.com/feed/
-
 export const feedDetailFetch = ({ rss_url, rss_title, initialLoading }) => {
 	return (dispatch) => {
 		if (!initialLoading) {
@@ -144,7 +142,7 @@ export const feedAdd = ({ rss_url }) => {
 			errorMessage(dispatch, 'Empty url');
 			return false;
 		}
-		fetch(api + rss_url)
+		fetch(api + rss_url + apiParams)
 			.then(response => response.json())
 			.then((data) => {
 				if (data.status === 'ok') {
@@ -152,11 +150,11 @@ export const feedAdd = ({ rss_url }) => {
 						.then((currentUser) => {
 							let RSSFeeds = currentUser.get('RSSFeeds');
 							for (let i = 0; i < RSSFeeds.length; i++) {
-							// already exist
+								// already exist
 								if (RSSFeeds[i].rss_url == rss_url) {
 									feedAddFail(dispatch)
 									errorMessage(dispatch, 'Feed already exist')
-									return 0;
+									return false;
 								}
 							};
 							if (!data.feed.title) {
@@ -164,7 +162,7 @@ export const feedAdd = ({ rss_url }) => {
 								errorMessage(dispatch, 'Failed');
 								return false;								
 							}
-							const RSSFeed = {
+							let RSSFeed = {
 								rss_url: rss_url,
 								rss_title: data.feed.title
 							};
@@ -172,8 +170,15 @@ export const feedAdd = ({ rss_url }) => {
 							currentUser.set('RSSFeeds', RSSFeeds);
 							currentUser.save()
 								.then(() => {
-									Actions.pop({refresh: {test: Math.random()}})
-									feedAddSuccess(dispatch, RSSFeeds);
+									AV.Cloud.run('addFeed', RSSFeed).then( () => {
+										Actions.pop({refresh: {test: Math.random()}})
+										feedAddSuccess(dispatch, RSSFeeds);
+									}, (err) => {
+										feedAddFail(dispatch)
+										errorMessage(dispatch, 'Failed')
+										return false;
+									});
+
 								})
 								.catch((error) => {
 									feedAddFail(dispatch)
@@ -215,7 +220,18 @@ export const feedDelete = ({ item }) => {
 		AV.User.currentAsync()
 			.then((currentUser) => {
 				let RSSFeeds = currentUser.get('RSSFeeds');
-				RSSFeeds.splice(RSSFeeds.indexOf(item),1);
+				let num = false;
+				for (let i = 0; i < RSSFeeds.length; i++) {
+					if (RSSFeeds[i].rss_title == item.rss_title) {
+						num = i;
+						break;
+					}
+				}
+				if (num === false) {
+					errorMessage(dispatch, 'Failed')
+					return false;
+				}
+				RSSFeeds.splice(num,1);
 				currentUser.set('RSSFeeds', RSSFeeds);
 				currentUser.save()
 					.then(() => {
