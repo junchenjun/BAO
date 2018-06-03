@@ -4,15 +4,23 @@ A pure RSS reader app built with React Native,
 
 ## Download
 
-[Download](https://github.com/jaychenjun/BAO/releases/download/v1.0.0/app-release.apk)
-<img src="http://oxjdt5zn7.bkt.clouddn.com/%E8%81%94%E5%9B%BE%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="200">
-
 [Only Android version is avaliable to download]
 
-## Dependency used
+## Dependencies
 
-* [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) - React Native Router based on new React Native Navigation API (0.26)
-* [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) - 3000 Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full stying.
+* [react: 16.3.1](https://github.com/facebook/react)
+* [react-native: 0.55.4](https://github.com/facebook/react-native)
+* [redux](https://github.com/reduxjs/redux)
+* [react-redux](https://github.com/reduxjs/react-redux)
+* [redux-thunk](https://github.com/reduxjs/redux-thunk)
+* [react-native-router-flux](https://github.com/aksonov/react-native-router-flux)
+* [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+* [react-native-storage](https://github.com/sunnylqm/react-native-storage)
+* [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
+* [react-native-render-html](https://github.com/archriss/react-native-render-html)
+* [react-native-modal](https://github.com/react-native-community/react-native-modal)
+* [react-native-elevated-view](https://github.com/alekhurst/react-native-elevated-view)
+* [leancloud-storage](https://github.com/leancloud/javascript-sdk)
 
 ## Running
 
