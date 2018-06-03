@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { View, StatusBar, Dimensions, StyleSheet, SafeAreaView } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import { connect } from 'react-redux';
@@ -6,7 +6,7 @@ import { BottomAlert } from './BottomAlert';
 
 const { height } = Dimensions.get('window');
 
-class Container extends PureComponent {
+class Container extends Component {
 	renderMsg() {
 		if ( this.props.errorMsg ) {
 			return (
