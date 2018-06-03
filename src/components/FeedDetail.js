@@ -248,7 +248,8 @@ const styles = StyleSheet.create({
 	},
 	touchableStyle: {  
 		width: touchableWidth,
-		alignSelf:'center'
+		alignSelf:'center',
+		flex: 1
 	}
 })
 
