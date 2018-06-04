@@ -33,9 +33,7 @@ class RouterComponent extends PureComponent {
 	componentDidMount() {
 		this.timer = setTimeout(() => {
         	SplashScreen.hide();
-		}, 1000);
-    	// do stuff while splash screen is shown
-        // After having done stuff (such as async tasks) hide the splash screen
+		}, 1200);
     }
 
 	componentWillUnmount() {
