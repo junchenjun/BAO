@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import AV from 'leancloud-storage'; 
 import { Text, TouchableOpacity, View, ActivityIndicator, FlatList, RefreshControl, Dimensions, StyleSheet } from 'react-native';
 import { ItemCard, Container, Confirm, Timer } from './common';
@@ -11,7 +11,7 @@ const { width } = Dimensions.get('window');
 const headerPadding = width*0.05;
 const touchableWidth = width*0.9+7;
 
-class FeedDetail extends Component {
+class FeedDetail extends PureComponent {
 
 	constructor(props){
 		super(props);
@@ -160,9 +160,9 @@ class FeedDetail extends Component {
 					keyExtractor={ (item) => item.id  }
 					extraData={ this.props }
 					// including the margins
-					getItemLayout={(data, index) => (
-				        {length: 94, offset: 94 * index, index}
-				    )}
+					// getItemLayout={(data, index) => (
+				 //        {length: 94, offset: 94 * index, index}
+				 //    )}
 				    initialListSize={ 18 } 
 				/>
 			)
