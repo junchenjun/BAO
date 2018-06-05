@@ -7,17 +7,17 @@ A pure RSS reader app built with React Native
 
 <br/>
 
+## Preview
+
+<img src="https://github.com/jaychenjun/BAO/blob/master/preview.jpg" width="100%">
+
+<br/>
+
 ## Download
 
 <img src="http://oxjdt5zn7.bkt.clouddn.com/%E8%81%94%E5%9B%BE%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="20%">
 
 [Only Android version is avaliable to download]
-
-<br/>
-
-## Preview
-
-<img src="https://github.com/jaychenjun/BAO/blob/master/preview.jpg" width="100%">
 
 <br/>
 
@@ -44,8 +44,8 @@ A pure RSS reader app built with React Native
 #### Clone & install
 
 * Clone this repo `git clone https://github.com/jaychenjun/BAO.git`
-* run`cd BAO`
-* run `npm install`
+* Run`cd BAO`
+* Run `npm install`
 
 #### iOS
 
