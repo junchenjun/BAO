@@ -19,6 +19,8 @@ A pure RSS reader app built with React Native
 
 [Only Android version is avaliable to download]
 
+[Test Account: Bao, Password: aaa] ENJOY~
+
 <br/>
 
 ## Dependencies
