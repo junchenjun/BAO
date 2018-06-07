@@ -59,15 +59,15 @@ A pure RSS reader app built with React Native
 
 <br/>
 <br/>
-[ Some modifies have been made to few packages, <br/>
-so it might not looks exactly the same if you are running on your computer ]
+Some modifies have been made to few packages, <br/>
+so it might not looks exactly the same if you are running on your computer
 <br/>
 <br/>
-[ This app is totally usable, <br/>
+This app is totally usable, <br/>
 but I am running the backend service on a free BaaS plan,<br/>
-supported by \\[LeanCloud\\](https://leancloud.cn/) with limited API reuqest per day,<br/>
+supported by [LeanCloud](https://leancloud.cn/) with limited API reuqest per day,<br/>
 so I might will delete your account after a while,<br/>
-test account above is a better option if you just want to take a look ]
+test account above is a better option if you just want to take a look
 <br/>
 <br/>
 <br/>
