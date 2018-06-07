@@ -67,7 +67,7 @@ so it might not looks exactly the same if you are running on your computer ]
 but I am running the backend service on a free BaaS plan,<br/>
 supported by LeanCloud with limited API reuqest per day,<br/>
 so I might will delete your account after a while,<br/>
-test account above is a better option if you just want to take a look]
+test account above is a better option if you just want to take a look ]
 <br/>
 <br/>
 <br/>
