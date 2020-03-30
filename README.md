@@ -5,6 +5,10 @@
 A pure RSS reader app built with React Native
 </p>
 
+<p align="center">
+<em>*No longer under maintenance*</em>
+</p>
+
 <br/>
 
 ## Preview
@@ -50,10 +54,6 @@ A pure RSS reader app built with React Native
 Backend service is running on a free BaaS plan,<br/>
 supported by [LeanCloud](https://leancloud.cn/) with limited API reuqest per day,<br/>
 [Test Account: Bao, Password: aaa] ENJOY~
-<br/>
-
-*No longer under maintenance
-
 <br/>
 
 ## License
