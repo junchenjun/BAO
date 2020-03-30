@@ -47,13 +47,12 @@ A pure RSS reader app built with React Native
 
 * Run `react-native run-android`
 
-This app is totally usable, <br/>
 Backend service is running on a free BaaS plan,<br/>
 supported by [LeanCloud](https://leancloud.cn/) with limited API reuqest per day,<br/>
 [Test Account: Bao, Password: aaa] ENJOY~
 <br/>
 <br/>
-<br/>
+<br/> 
 
 ## License
 
