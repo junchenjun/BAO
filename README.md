@@ -54,6 +54,8 @@ supported by [LeanCloud](https://leancloud.cn/) with limited API reuqest per day
 <br/>
 <br/> 
 
+*No longer under maintenance
+
 ## License
 
 Released under the [MIT License](http://opensource.org/licenses/MIT).
