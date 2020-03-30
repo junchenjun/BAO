@@ -13,16 +13,6 @@ A pure RSS reader app built with React Native
 
 <br/>
 
-## Download
-
-<img src="http://oxjdt5zn7.bkt.clouddn.com/%E8%81%94%E5%9B%BE%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="20%">
-
-[Only Android version is avaliable to download]
-
-[Test Account: Bao, Password: aaa] ENJOY~
-
-<br/>
-
 ## Dependencies
 
 * [react](https://github.com/facebook/react): 16.3.1
@@ -57,18 +47,10 @@ A pure RSS reader app built with React Native
 
 * Run `react-native run-android`
 
-<br/>
-<br/>
-Some modifies have been made to few packages, <br/>
-so it might not looks exactly the same if you are running on your computer
-<br/>
-<br/>
-
 This app is totally usable, <br/>
-but I am running the backend service on a free BaaS plan,<br/>
+Backend service is running on a free BaaS plan,<br/>
 supported by [LeanCloud](https://leancloud.cn/) with limited API reuqest per day,<br/>
-so I might will delete your account after a while,<br/>
-test account above is a better option if you just want to take a look
+[Test Account: Bao, Password: aaa] ENJOY~
 <br/>
 <br/>
 <br/>
