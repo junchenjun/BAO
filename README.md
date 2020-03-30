@@ -51,10 +51,10 @@ Backend service is running on a free BaaS plan,<br/>
 supported by [LeanCloud](https://leancloud.cn/) with limited API reuqest per day,<br/>
 [Test Account: Bao, Password: aaa] ENJOY~
 <br/>
-<br/>
-<br/> 
 
 *No longer under maintenance
+
+<br/>
 
 ## License
 
